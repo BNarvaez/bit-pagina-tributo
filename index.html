@@ -1,67 +1,88 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Homenaje a Larry Wall</title>
 </head>
 <body>
-    <header>
-        <h1>Larry Wall: El Arquitecto de Perl</h1>
-        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRgfDnKNCVGhPi4bMFRrV0DvRjdK7cL6QNgfJqiT2Ty1K5mni84IstEAJOD0m1nm8Wyt8gOMYnDeVw1r2rZx_nLUA" alt="Foto de Larry Wall">
-    </header>
-    <main>
-        <section class="biografia">
-            <h2>Biografía</h2>
-            <p>Larry Wall, nacido el 27 de septiembre de 1954 en Los Ángeles, es un programador y escritor estadounidense, reconocido mundialmente por ser el creador del lenguaje de programación Perl. Su pasión por la lingüística y la informática lo llevó a desarrollar un lenguaje de scripting que revolucionaría la forma en que los programadores interactuaban con los datos y creaban aplicaciones.</p>
-            <h3 class="sub3">Logros destacados:</h3>
-            <ul>
-                <li>Creación de Perl: En 1987, Wall lanzó la primera versión de Perl, un lenguaje de programación diseñado para facilitar la manipulación de texto y la creación de scripts. Perl rápidamente ganó popularidad debido a su flexibilidad, expresividad y capacidad para resolver problemas complejos de manera eficiente.</li>
-                <li>Desarrollo de Raku: Como sucesor de Perl, Wall también fue el principal impulsor del desarrollo de Raku, un lenguaje de programación diseñado para abordar las limitaciones de Perl y ofrecer características más modernas.</li>
-                <li>Autor prolífico: Además de sus contribuciones a la programación, Wall es autor de varios libros sobre Perl, incluyendo "Programming Perl" (comúnmente conocido como "el libro del camello"), que se convirtió en una referencia esencial para los programadores de Perl.</li>
-                <li>Líder de la comunidad Perl: Wall ha sido un líder activo en la comunidad Perl, fomentando la colaboración y el intercambio de conocimientos entre los programadores.</li>
-            </ul>
+    <div class="padre">
+        <header class="header">
+            <div class="menu">
+                <div class="logo">
+                    <a href="index.html">Logo</a>
+                </div>
+                <nav class="nav">
+                    <a href="#biografia">Biografía</a>
+                    <a href="#trabajo">Trabajo</a>
+                    <a href="#Leg">Legado</a>
+                    <a href="#Log">Logros</a>
+                </nav>
+                
+            </div>
+            <div class="texto-principal">
+                <h1>Larry Wall: El Arquitecto de Perl</h1>
+            </div>
+        </header>
+        <section class="section">
+            <main class="contenido">
+                <div class="bio">
+                    <img src="img/2.jpg" alt="Larry Wall">
+                </div>
+                <div class="bio-text" id="biografia">
+                    <h2>Biografía</h2>
+                    <p>Larry Wall, nacido el 27 de septiembre de 1954 en Los Ángeles, es un programador y escritor estadounidense, reconocido mundialmente por ser el creador del lenguaje de programación Perl. Su pasión por la lingüística y la informática lo llevó a desarrollar un lenguaje de scripting que revolucionaría la forma en que los programadores interactuaban con los datos y creaban aplicaciones.</p>
+                </div>
+            </main>
+            <aside class="contenido-secundario">
+                <div class="perl" id="trabajo">
+                    <h2>Perl: Un Lenguaje Legendario</h2>
+                    <p>Perl, acrónimo de Practical Extraction and Report Language, fue concebido a mediados de los años 80 por Larry Wall como una solución a las tareas de procesamiento de texto que realizaba en su trabajo diario. Wall buscaba un lenguaje que fuera más flexible y poderoso que las herramientas de scripting disponibles en ese momento, como awk y sed. Perl se diseñó desde el principio para ser un lenguaje de propósito general, pero su fortaleza radicaba en el procesamiento de texto. Su sintaxis, aunque a veces considerada peculiar, permitía a los programadores expresar soluciones de manera concisa y elegante.</p>
+                </div>
+                <div class="perl-img">
+                    <img src="img/3.png" alt="Logo Perl">
+                </div>
+            </aside>
+            <aside class="legado">
+                <div class="leg" id="Leg">
+                    <h2>Legado</h2>
+                    <p>Larry Wall, el creador de Perl, dejó un legado innegable en el mundo de la programación. Su visión de un lenguaje flexible, poderoso y pragmático ha inspirado a generaciones de desarrolladores.</p>
+                </div>
+                <div class="logros" id="Log">
+                    <h3>Logros destacados</h3>
+                    <ul>
+                        <li>Creación de Perl: En 1987, Wall lanzó la primera versión de Perl, un lenguaje de programación diseñado para facilitar la manipulación de texto y la creación de scripts. Perl rápidamente ganó popularidad debido a su flexibilidad, expresividad y capacidad para resolver problemas complejos de manera eficiente.</li>
+                        <li>Desarrollo de Raku: Como sucesor de Perl, Wall también fue el principal impulsor del desarrollo de Raku, un lenguaje de programación diseñado para abordar las limitaciones de Perl y ofrecer características más modernas.</li>
+                        <li>Autor prolífico: Además de sus contribuciones a la programación, Wall es autor de varios libros sobre Perl, incluyendo "Programming Perl" (comúnmente conocido como "el libro del camello"), que se convirtió en una referencia esencial para los programadores de Perl.</li>
+                        <li>Líder de la comunidad Perl: Wall ha sido un líder activo en la comunidad Perl, fomentando la colaboración y el intercambio de conocimientos entre los programadores.</li>
+                    </ul>
+                </div>
+                <div class="mas-informacion">
+                    <h2>Recursos</h2>
+                    <a href="https://es.wikipedia.org/wiki/Larry_Wall">Wikipedia</a>
+                    <a href="https://es.wikipedia.org/wiki/Perl">Perl</a>
+                    
+                    <h3>Entrevista</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aNAtbYSxzuA?si=JWFQnipCxs3laT2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                
+            </aside>
         </section>
-        <hr>
-        <section>
-            <div><h2>Perl: Un Lenguaje Legendario</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cebolla_Chulita.png/200px-Cebolla_Chulita.png" alt="Logo de Perl"></div>
-            <p>Perl, acrónimo de Practical Extraction and Report Language, fue concebido a mediados de los años 80 por Larry Wall como una solución a las tareas de procesamiento de texto que realizaba en su trabajo diario. Wall buscaba un lenguaje que fuera más flexible y poderoso que las herramientas de scripting disponibles en ese momento, como awk y sed. Perl se diseñó desde el principio para ser un lenguaje de propósito general, pero su fortaleza radicaba en el procesamiento de texto. Su sintaxis, aunque a veces considerada peculiar, permitía a los programadores expresar soluciones de manera concisa y elegante.</p>
-            <h3>Características Principales de Perl:</h3>
-            <ol>
-                <li>Procesamiento de texto: Perl excelía en la manipulación de texto, gracias a sus potentes expresiones regulares y a su capacidad para analizar y transformar datos textuales de forma eficiente.</li>
-                <li>Programación multiparadigma: Perl soporta tanto la programación procedimental como la orientada a objetos, lo que lo hace versátil para una amplia gama de tareas.</li>
-                <li>Extensibilidad: Perl cuenta con un vasto ecosistema de módulos y bibliotecas (conocido como CPAN) que amplían sus capacidades y permiten a los programadores reutilizar código.</li>
-                <li>Portabilidad: Perl está disponible para una gran variedad de sistemas operativos, lo que facilita su uso en diferentes entornos.</li>
-            </ol></>
-        </section>
-        <hr>
-        <section>
-            <h2>Legado</h2>
-            <p>Larry Wall, el creador de Perl, dejó un legado innegable en el mundo de la programación. Su visión de un lenguaje flexible, poderoso y pragmático ha inspirado a generaciones de desarrolladores.</p>
-            <p>Aunque Perl ha evolucionado y nuevos lenguajes han surgido, el legado de Larry Wall y Perl sigue vivo. Su enfoque en la pragmática, la flexibilidad y la comunidad ha dejado una huella indeleble en el mundo de la programación. Los principios que guiaron el desarrollo de Perl continúan inspirando a los programadores a buscar soluciones elegantes y eficientes a los desafíos que enfrentan.</p>
-        </section>
-    </main>
-    
-    <aside>
-        <h2>Recursos:</h2>
-        <ul>
-            <li>
-                <a href="https://es.wikipedia.org/wiki/Larry_Wall">Wikipedia</a>
-            </li>
-            <li>
-                <a href="https://es.wikipedia.org/wiki/Perl">Perl</a>
-            </li>
-        </ul>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aNAtbYSxzuA?si=JWFQnipCxs3laT2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </aside>
-    
-    <footer>
-        <p>&copy; 2024 - Brayan Narvaez
-        </p>
-    </footer>
+        <footer class="footer">
+            <div class="copy">
+                <h3>&copy; Desarrollo por Brayan Narvaez</h3>
+            </div>
+            <nav class="pie">
+                <a href="#biografia">Biografía</a>
+                <a href="#trabajo">Trabajo</a>
+                <a href="#Leg">Legado</a>
+                <a href="#Log">Logros</a>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>

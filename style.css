@@ -1,0 +1,235 @@
+* {
+    margin:0px;
+    padding: 2px 10px 2px 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{ 
+        background: url(img/9.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+        .menu{
+            background:rgb(7, 71, 153,.5);
+            display: flex;
+            flex-flow: row nowrap;
+            height: 60px;
+            align-items: center;
+            border-bottom: 1px solid #fff;
+        }
+            .logo{
+                flex: 1 1 auto;
+            }
+                .logo a{
+                    color: #fff;
+                    font-size: 40px;
+                    font-weight: bold;
+                }
+                .logo a:hover{
+                    color: #343434;
+                }
+
+            .nav{
+                flex: 1 1 auto;
+                justify-content: right;
+            }
+                .nav a{
+                    color: #fff;
+                    font-size: 11px;
+                    text-transform:uppercase;
+                    padding: 0 30px;
+                    letter-spacing: 2px;
+                    font-weight: bold;
+                }
+                .nav a:hover{
+                    color: #edb610;
+                }
+        
+        .texto-principal{
+            /*background-color: #F3C623;*/
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            h1{
+                font-size: 60px;
+                color: #ffffff;
+                font-weight: 800;
+                text-align: center;
+                line-height: 1.6;
+            }
+
+    .section{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .contenido{
+            display: flex;
+            flex-flow: row nowrap;
+        }
+            .bio{
+                flex: 4 1 auto;
+            }
+                .bio img{
+                    width: 500px;
+                    border-radius: 40px;
+                }
+            .bio-text{
+                padding: 150px;
+                flex: 1 1 auto;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: center;
+            }
+                .bio-text h2{
+                    text-align: center;
+                    font-size: 26px;
+                }
+                .bio-text p{
+                    font-size: 16px;
+                    padding: 0 10px;
+                    letter-spacing: 1px;
+                    margin-top: 15px;
+                    text-align: justify;
+                }
+
+        .contenido-secundario{
+            background-color:#074799;
+            color: #fff;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+            .perl{
+                
+                flex: 1 1 auto;
+            }
+                .perl h2{
+                    text-align: center;
+                    font-size: 26px;
+                }
+                .perl p{
+                    font-size: 12px;
+                    padding: 10px 50px;
+                    letter-spacing: 1px;
+                    margin-top: 15px;
+                    text-align: justify;
+                }
+            .perl-img{
+                flex: 4 1 auto;
+            }
+                .perl-img img{
+                    width: 300px;
+                }
+        .legado{
+            
+            display: flex;
+            flex-flow: row nowrap;
+        }
+            .leg{
+                flex: 1 1 auto;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+            }
+                .leg h2{
+                    text-align: center;
+                    font-size: 18px;
+                }
+                .leg p{
+                    font-size: 12px;
+                    padding: 0 10px;
+                    letter-spacing: 1px;
+                    margin-top: 15px;
+                    text-align: justify;
+                }
+
+            .logros{
+                
+                flex: 1 1 auto;
+            }
+                .logros h3{
+                    text-align: center;
+                    font-size: 18px;
+                }
+                .logros ul{
+                    font-size: 12px;
+                    padding: 0 10px;
+                    letter-spacing: 1px;
+                    margin-top: 15px;
+                    text-align: justify;
+                }
+
+            .mas-informacion{
+                flex: 1 1 auto;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+            }
+                .mas-informacion h2{
+                    text-align: center;
+                    font-size: 18px;
+                }
+                    .mas-informacion a{
+                        color:black;
+                        font-size: 12px;
+
+                    }
+                    .mas-informacion a:hover{
+                        color: #b97a7a;
+                    }
+                
+                .mas-informacion h3 {
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 18px;
+                }
+            
+
+    .footer{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+        .copy{
+            background-color:#074799;
+            flex: 4 1 auto;
+            color: #fff;
+            font-size: 12px;
+        }
+        .pie{
+           background-color:#074799;
+            flex: 1 1 auto;
+            justify-content: right;
+        }
+            .pie a{
+                color: #fff;
+                font-size: 10px;
+                text-transform:uppercase;
+                padding: 0 30px;
+                letter-spacing: 2px;
+                font-weight: bold;
+            }
+            .pie a:hover{
+                color: #edb610;
+            }
+
